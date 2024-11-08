@@ -9,7 +9,6 @@ boxes.forEach((box) => {
       isDragging = true;
       offsetX = event.clientX - box.offsetLeft;
       offsetY = event.clientY - box.offsetTop;
-
       // Add event listeners for moving and stopping drag
       document.addEventListener("mousemove", moveElement);
       document.addEventListener("mouseup", stopDragging);
